@@ -42,7 +42,7 @@ export default function Hero() {
       </div>
 
       {/* Main content */}
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-5 lg:px-8 h-[calc(100vh-0rem)] flex flex-col items-center justify-center">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-5 lg:px-8 h-[calc(100vh-6rem)] flex flex-col items-center justify-center">
         {/* Central icon */}
         {/* <div className="relative w-24 h-24 mx-auto mb-8">
           <div className="absolute inset-0 bg-primary/20 blur-md rounded-xl animate-pulse-slow" />
@@ -77,11 +77,11 @@ export default function Hero() {
         </p>
 
         {/* Platform buttons */}
-        <div className="flex justify-center items-center md:space-x-4 space-x-2 mb-4">
+        <div className="flex justify-center items-center md:space-x-4 space-x-2">
           {['Xray\nMRI', 'Symptom\nChecker', 'Analysis\n Report'].map((text, i) => (
             <button
               key={i}
-              className="group relative px-6 py-4 sm:min-w-[170px] min-w-[50px]"
+              className="group relative px-6 py-4 sm:min-w-[170px] min-w-[110px]"
             >
               <div className="absolute inset-0 bg-dark-light border border-primary/20 rounded-xl" />
               <div className="relative text-gray-400 text-sm whitespace-pre-line">
