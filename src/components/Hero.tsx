@@ -47,7 +47,7 @@ export default function Hero() {
         {/* <div className="relative w-24 h-24 mx-auto mb-8">
           <div className="absolute inset-0 bg-primary/20 blur-md rounded-xl animate-pulse-slow" />
           <div className="relative bg-dark-light border-2 border-primary/30 rounded-xl p-3 mt-5">
-            <div className="text-primary text-2xl font-bold">FrixAI</div>
+            <div className="text-primary text-2xl font-bold">Healblox</div>
           </div>
           <div className="absolute -inset-4 bg-gradient-radial from-primary/10 via-transparent to-transparent animate-pulse-slow" />
         </div> */}

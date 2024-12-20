@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-primary">FrixAI Africa</h3>
+            <h3 className="text-2xl font-bold mb-4 text-primary">Healblox</h3>
             <p className="text-gray-400">
               Revolutionizing healthcare diagnostics with AI-powered solutions.
             </p>
@@ -24,11 +24,11 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="flex items-center text-gray-400">
                 <Mail size={16} className="mr-2 text-primary" />
-                contact@FrixAIafrica.com
+                contact@Healblox.com
               </li>
               <li className="flex items-center text-gray-400">
                 <Phone size={16} className="mr-2 text-primary" />
-                +234 800 123 4567
+                +234 906 872 6168
               </li>
               <li className="flex items-center text-gray-400">
                 <MapPin size={16} className="mr-2 text-primary" />
@@ -46,7 +46,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-dark mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} FrixAI Africa. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Healblox Africa. All rights reserved.</p>
         </div>
       </div>
     </footer>

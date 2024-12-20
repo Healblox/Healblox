@@ -7,7 +7,7 @@ export default function Testimonials() {
             Trusted by Healthcare Professionals
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            See how FrixAI Africa is transforming healthcare delivery across the continent
+            See how Healblox Africa is transforming healthcare delivery across the continent
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
