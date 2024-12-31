@@ -4,7 +4,7 @@ const features = [
   {
     icon: Brain,
     title: 'Accurate Diagnosis',
-    description: 'Advanced AI algorithms provide precise fracture detection and classification with over 95% accuracy.'
+    description: 'Advanced AI algorithms provide precise Medical issues detection and classification with over 95% accuracy.'
   },
   {
     icon: Clock,
@@ -32,7 +32,7 @@ export default function Features() {
             Advanced Features for Modern Healthcare
           </h2>
           <p className="text-sm md:text-xl text-gray-400 max-w-2xl mx-auto">
-            Empowering healthcare providers with cutting-edge AI technology for precise fracture diagnosis.
+            Empowering healthcare providers with cutting-edge AI technology for precise medical diagnosis.
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

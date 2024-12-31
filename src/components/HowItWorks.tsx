@@ -9,12 +9,12 @@ const steps = [
   {
     icon: Search,
     title: 'AI Analysis',
-    description: 'Our advanced AI algorithms analyze the image for fractures and abnormalities.'
+    description: 'Our advanced AI algorithms analyze the image for trauma and abnormalities.'
   },
   {
     icon: FileCheck,
     title: 'Get Results',
-    description: 'Receive detailed analysis with fracture location, type, and treatment suggestions.'
+    description: 'Receive detailed analysis with  trauma and abnormalities location, type, and treatment suggestions.'
   }
 ];
 
