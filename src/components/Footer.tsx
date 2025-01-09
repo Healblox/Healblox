@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin } from 'lucide-react';
+import Logo from '../assets/Logo.png';
 
 export default function Footer() {
   return (
@@ -6,7 +7,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-primary">Healblox</h3>
+            {/* <h3 className="text-2xl font-bold mb-4 text-primary">Healblox</h3> */}
+            <img src={Logo} alt="Healblox Logo" className="h-12 w-auto mb-4" />
             <p className="text-gray-400">
               Revolutionizing healthcare diagnostics with AI-powered solutions.
             </p>
