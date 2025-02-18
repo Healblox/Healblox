@@ -1,5 +1,7 @@
+import { useState } from 'react';
 import { ExternalLink } from 'lucide-react';
 import Background from './Background';
+import WaitlistForm from './WaitlistForm';
 
 const ConnectedNode = () => (
   <div className="relative w-12 h-12 bg-dark-light rounded-lg border border-dark-light/50 shadow-lg">
@@ -13,6 +15,9 @@ const ConnectionLine = ({ className }: { className?: string }) => (
 );
 
 export default function Hero() {
+
+  const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
+
   return (
     <section id="hero" >
     <div className="relative min-h-screen bg-dark overflow-hidden pt-16">
@@ -62,7 +67,7 @@ export default function Hero() {
 
         {/* CTA Button */}
         <div className="flex justify-center mb-16">
-          <button className="group relative">
+          <button className="group relative"  onClick={() => setIsWaitlistOpen(true)}>
             <div className="absolute -inset-1 bg-primary/30 blur-sm rounded-xl group-hover:bg-primary/40 transition-colors" />
             <div className="relative bg-primary text-dark px-8 py-3 rounded-xl font-semibold inline-flex items-center space-x-2">
               <span>Get Early Access</span>
@@ -93,6 +98,11 @@ export default function Hero() {
         </div>
       </div>
     </div>
+    {/* Waitlist Form */}
+    <WaitlistForm 
+      isOpen={isWaitlistOpen} 
+      onClose={() => setIsWaitlistOpen(false)} 
+    />
     </section>
   );
 }

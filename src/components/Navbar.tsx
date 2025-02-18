@@ -18,9 +18,9 @@ export default function Navbar() {
             <a href="#features" className="text-gray-300 hover:text-primary transition-colors">Features</a>
             <a href="#how-it-works" className="text-gray-300 hover:text-primary transition-colors">How It Works</a>
             <a href="#testimonials" className="text-gray-300 hover:text-primary transition-colors">Testimonials</a>
-            <button className="bg-primary text-dark px-6 py-2 rounded-lg hover:bg-primary-dark transition-colors">
+            {/* <button className="bg-primary text-dark px-6 py-2 rounded-lg hover:bg-primary-dark transition-colors">
               Get Early Access
-            </button>
+            </button> */}
           </div>
           <div className="md:hidden">
             <button className="text-gray-300">
