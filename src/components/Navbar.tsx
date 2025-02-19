@@ -6,9 +6,9 @@ export default function Navbar() {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleLogin = () => {
-    window.open('https://healblox-dashboard.onrender.com', '_blank', 'noopener,noreferrer');
-  };
+  // const handleLogin = () => {
+  //   window.open('https://healblox-dashboard.onrender.com', '_blank', 'noopener,noreferrer');
+  // };
 
 
   return (
@@ -32,7 +32,7 @@ export default function Navbar() {
             <a href="#how-it-works" className="text-gray-300 hover:text-primary transition-colors">How It Works</a>
             <a href="#testimonials" className="text-gray-300 hover:text-primary transition-colors">Testimonials</a>
             <button 
-              onClick={handleLogin}
+              // onClick={handleLogin}
               className="bg-primary text-dark px-6 py-2 rounded-lg hover:bg-primary-dark transition-colors">
               Login
             </button>
@@ -89,7 +89,7 @@ export default function Navbar() {
               </a>
               <button 
                 onClick={() => {
-                  handleLogin();
+                  // handleLogin();
                   setIsMenuOpen(false);
                 }}
                 className="mt-4 bg-primary text-dark px-6 py-2 rounded-lg hover:bg-primary-dark transition-colors"
